@@ -41,6 +41,12 @@
   animation: float 6s ease-in-out infinite;
 }
 
+.hero-logo-img {
+  max-width: 220px;
+  height: auto;
+  filter: drop-shadow(0 0 20px rgba(31, 142, 255, 0.3));
+}
+
 .hero-title {
   font-size: 4rem;
   font-weight: 700;

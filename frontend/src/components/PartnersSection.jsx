@@ -1,5 +1,8 @@
 import React from 'react';
 import './PartnersSection.css';
+import cyverionLogo from '../assets/Partner logo/cyverion.png';
+import starshieldLogo from '../assets/Partner logo/starshield.png';
+import incallLogo from '../assets/Partner logo/axiomrise.png';
 
 const PartnersSection = () => {
   return (
@@ -14,9 +17,7 @@ const PartnersSection = () => {
         <div className="partner-pedestal">
           <div className="pedestal-top"></div>
           <div className="partner-logo-container glass-panel">
-            <h3 className="partner-logo cyverion">
-              <span className="logo-icon">🛡️</span> CYVERION
-            </h3>
+            <img src={cyverionLogo} alt="Cyverion - Secure Today. Safer Tomorrow." className="partner-logo-img" />
           </div>
           <div className="pedestal-bottom"></div>
         </div>
@@ -24,9 +25,7 @@ const PartnersSection = () => {
         <div className="partner-pedestal">
           <div className="pedestal-top"></div>
           <div className="partner-logo-container glass-panel">
-            <h3 className="partner-logo starshield">
-              <span className="logo-icon">⭐</span> STAR SHIELD
-            </h3>
+            <img src={starshieldLogo} alt="Star Shield" className="partner-logo-img starshield-img" />
           </div>
           <div className="pedestal-bottom"></div>
         </div>
@@ -34,9 +33,7 @@ const PartnersSection = () => {
         <div className="partner-pedestal">
           <div className="pedestal-top"></div>
           <div className="partner-logo-container glass-panel">
-            <h3 className="partner-logo incall">
-              <span className="logo-icon">🌐</span> inCall systems
-            </h3>
+            <img src={incallLogo} alt="inCall Systems" className="partner-logo-img incall-img" />
           </div>
           <div className="pedestal-bottom"></div>
         </div>

@@ -1,16 +1,14 @@
 import React from 'react';
 import './HeroSection.css';
 import { Shield, Target, Zap, Award } from 'lucide-react';
+import axiomriseLogo from '../assets/image.png';
 
 const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
         <div className="hero-logo-container glass-panel">
-          <h1 className="hero-title">
-            <span className="accent-blue">A</span>xiom<span className="accent-text">Rise</span>
-          </h1>
-          <p className="hero-subtitle">IT CONSULTING AND SERVICES</p>
+          <img src={axiomriseLogo} alt="AxiomRise - IT Consulting and Services" className="hero-logo-img" />
         </div>
         
         <div className="hero-main-text">
