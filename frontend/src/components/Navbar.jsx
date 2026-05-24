@@ -33,7 +33,9 @@ const Navbar = ({ isLightTheme, toggleTheme }) => {
       <div className="navbar-container container">
         {/* Professional B2B Logo */}
         <a href="#" className="navbar-logo" onClick={handleLinkClick}>
-          <img src={axiomriseLogo} alt="AxiomRise Logo" className="navbar-logo-img" />
+          <div className="navbar-logo-wrapper">
+            <img src={axiomriseLogo} alt="AxiomRise Logo" className="navbar-logo-img" />
+          </div>
           <div className="logo-text">
             <span className="logo-main">Axiom</span>
             <span className="logo-sub">Rise</span>

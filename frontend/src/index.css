@@ -308,8 +308,8 @@ h4 {
   color: #0F172A !important;
 }
 
-.light-theme .navbar-logo-img,
-.light-theme .footer-logo-img {
+.light-theme .navbar-logo-wrapper,
+.light-theme .footer-logo-wrapper {
   background-color: #F8FAFC;
 }
 

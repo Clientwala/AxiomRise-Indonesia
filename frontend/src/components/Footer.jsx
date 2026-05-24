@@ -12,7 +12,9 @@ const Footer = () => {
           {/* Column 1: Brand & Strategic Intent */}
           <div className="footer-col brand-col">
             <a href="#" className="footer-logo">
-              <img src={axiomriseLogo} alt="AxiomRise Logo" className="footer-logo-img" />
+              <div className="footer-logo-wrapper">
+                <img src={axiomriseLogo} alt="AxiomRise Logo" className="footer-logo-img" />
+              </div>
               <div className="logo-text">
                 <span className="logo-main">Axiom</span>
                 <span className="logo-sub">Rise</span>
@@ -24,21 +26,21 @@ const Footer = () => {
             </p>
 
             <div className="social-links">
-              <a href="#" className="social-icon-btn" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/axiom-rise-330054406/" className="social-icon-btn" aria-label="LinkedIn">
                 <svg className="lucide" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: '18px', height: '18px' }}>
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                   <rect x="2" y="9" width="4" height="12" />
                   <circle cx="4" cy="4" r="2" />
                 </svg>
               </a>
-              <a href="#" className="social-icon-btn" aria-label="Twitter">
+              {/* <a href="#" className="social-icon-btn" aria-label="Twitter">
                 <svg className="lucide" viewBox="0 0 24 24" fill="currentColor" style={{ width: '16px', height: '16px' }}>
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
               <a href="#" className="social-icon-btn" aria-label="Global Presence">
                 <Globe size={18} />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -79,16 +81,6 @@ const Footer = () => {
                   <br />
                   <span style={{ opacity: 0.65, fontSize: '0.75rem' }}>(Mon–Fri, 9AM–6PM WIB)</span>
                 </p>
-              </div>
-            </div>
-
-            <div className="office-item">
-              <div className="office-icon">
-                <MapPin size={16} />
-              </div>
-              <div className="office-details">
-                <strong>AxiomRise Pte Ltd (Singapore Hub)</strong>
-                <p>Marina One East Tower, Level 30, Straits View, Singapore</p>
               </div>
             </div>
 
